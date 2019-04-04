@@ -261,9 +261,9 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
-  <PropertyGroup>
+ <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
-    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildProgramFiles32)\Microsoft Visual Studio\2017\BuildTools\MSBuild\Microsoft\VisualStudio\v15.0</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
     <EnableMSDeployAppOffline>true</EnableMSDeployAppOffline>
